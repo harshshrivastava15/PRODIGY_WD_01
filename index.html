@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <span class="logo">Logo</span>
+        <span class="logo"><ion-icon name="logo-apple-ar" class="log-img"></ion-icon>   Logo</span>
         <nav class="navbar">
             <ul class="navbar-list">
                 <li><a class="navbar-link" href="#">Home</a></li>
@@ -30,6 +30,24 @@
             
         </div>
     </header>
+    <section class="main-content">
+        <div class="para hidden" id="para">
+             We provide creative solutions to turn your idea into digital reality
+             <button class="btn">
+                More about Us <ion-icon name="chevron-forward-circle-outline"></ion-icon>
+            </button>
+            <button class="btn" id="btn" onclick="loginpg() " >Register</button>
+        </div>
+        <div class="login hidden" id="login">
+            <h2>Register</h2>
+            <div class="ip">
+               <h4>Username</h4><input type="text">
+                <h4>Password</h4><input type="password">
+            </div>
+            <button class="btn">Submit</button>
+        </div>
+        
+    </section>
     
     <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

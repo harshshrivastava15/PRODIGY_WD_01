@@ -14,3 +14,40 @@ function HideSidebar(){
     close.style.display='none'
     open.style.display='flex'
 }
+
+
+// const observer=new IntersectionObserver((entries)=>{
+//     entries.forEach((entry) => {
+//         if(entry.isIntersecting) {
+//             entry.target.classList.add('show');
+//         }
+//         else{
+//             entry.target.classList.remove('show');
+//         }
+//     })
+// })
+// const hiddenElements = documentquerySelectorAll('.hidden');
+// hiddenElements.forEach((el)=>observer.observe(el))
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
+
+
+function loginpg() {
+    const login = document.getElementById('login')
+    const para = document.getElementById('para')
+    
+    login.style.display='block';
+    para.style.display='none';
+
+
+}
