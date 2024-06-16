@@ -70,7 +70,7 @@ html {
     position: absolute;
     width: 100%;
     border: solid black;
-    height: 601px;
+    height: 100vh;
     display: flex;
     background-image: url('pexels-eberhardgross-2098428.jpg');
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ html {
     border-color: #a7a7a7;
 }
 .para{
-    font-size: 6rem;
+    font-size: 10vh;
     font-weight: 700;
     color: #f0f8ff;
     width: 50%;
@@ -209,7 +209,7 @@ html {
         background-color:rgb(52, 52, 52);
     }
     .para{
-        font-size: 4rem;
+        font-size: 8vw;
         width: 100%;
         margin: 0;
         text-align: center;
@@ -226,8 +226,21 @@ html {
         position: relative;
         left: 0;
         display: none;
-        width: 50%;
-        min-width: 35rem;
+        width: 80%;
+        
+
+    }
+    .ip{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        
+    }
+    .login .ip h4{
+        margin: 5px;
+        font-size: 15px;
+        font-weight: 400;
     }
     #btn{
         display: block;
