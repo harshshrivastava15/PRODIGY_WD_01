@@ -116,7 +116,6 @@ html {
 .login{
     position: relative;
     left: 10rem;
-    height: 30rem;
     width: 35rem;
     color: #ffffff;
     backdrop-filter: blur(2px);
