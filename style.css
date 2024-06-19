@@ -225,19 +225,29 @@ html {
         position: relative;
         left: 0;
         display: none;
-        width: 80%;
+        top:30px;
+        padding: 20px;
+        
+
+        
+    }
+    .login h2{
+        padding: 0;
+        margin: 10px;
         
 
     }
-    .ip{
+    /* .ip{
         display: flex;
-        flex-direction: column;
+        flex-direction: ;
         justify-content: left;
         align-items: flex-start;
+        padding: 10px;
+        margin:0 ;
         
-    }
-    .login .ip h4{
-        margin: 5px;
+    } */
+    .login .ip input{
+        margin: 0px;
         font-size: 15px;
         font-weight: 400;
     }
